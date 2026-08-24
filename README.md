@@ -8,8 +8,6 @@ https://drive.google.com/file/d/1Vm2uK66IR9Xiy0HzQaJHz8piQC98-5lB/view?usp=shari
 
 ---
 
-## Deployed Smart Contract Details
-
 | Parameter | Value / Endpoint |
 | :--- | :--- |
 | **Contract Name** | `VotingContract` |
@@ -19,9 +17,16 @@ https://drive.google.com/file/d/1Vm2uK66IR9Xiy0HzQaJHz8piQC98-5lB/view?usp=shari
 | **Public Indexer Endpoint** | `https://indexer.preprod.midnight.network/v1/graphql` |
 | **Node RPC Endpoint** | `https://rpc.preprod.midnight.network` |
 
+> [!NOTE]
+> **Stellar Explorer vs Midnight Preprod Indexer:** As this is a data-protection DApp built on the **Midnight Network** (IOG's ZK-privacy blockchain), transactions and contract calls are verified on the **Midnight Preprod indexer/endpoints** rather than Stellar.
+
 ### Terminal Smart Contract Deployment Screenshot
 
 ![Smart Contract Terminal Deployment Screenshot](./screenshots/image.png)
+
+### Midnight Lace Wallet Support
+The DApp integrates with the **Midnight Lace Wallet** extension for signing preprod transactions.
+- **Wallet Connection Option:** "Connect Lace Wallet" is available when switching to Preprod network mode in the UI.
 
 ---
 
